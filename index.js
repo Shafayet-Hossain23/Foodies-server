@@ -21,7 +21,13 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 
 async function run() {
     try {
-
+        const serviceCollection = client.db("FooDies").collection("services")
+        const services = {
+            Name: "shafayet",
+            Id: "445"
+        }
+        const result = await serviceCollection.insertOne(services)
+        console.log(result)
     }
     finally {
 

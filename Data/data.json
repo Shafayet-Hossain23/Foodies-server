@@ -1,0 +1,104 @@
+[
+    {
+        "serviceId": "01",
+        "title": "Beef Kala Vhuna",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "totalSell": "1500",
+        "shef": {
+            "name": "Zunayed Hossain",
+            "company": "FooDies"
+        },
+        "quantity": "1.5 kg",
+        "price": 14,
+        "image_url": "https://static.wixstatic.com/media/05c508_5cf0028922b34244a5913784d2e337c9~mv2_d_2166_1282_s_2.jpg/v1/fit/w_1000%2Ch_1000%2Cal_c%2Cq_80/file.jpg",
+        "details": "With the delightful aroma of a distinctive blend of spices, this famous Bengali delicacy, Kala Bhuna has won hearts. The juicy and tender meat with a slightly tangy flavor will leave you spellbound. After 4 sets of trial and error, I ended up documenting the Beef Kala Bhuna Recipe around two months back. However, I have not posted the recipe then. This was kept in stock so that I can come up with a Ramadan special recipe. It is been a long I was trying to make Kala Bhuna at home. Kala Bhuna is a famous meat delicacy from Bangladesh."
+    },
+    {
+        "serviceId": "02",
+        "title": "Chicken Briyani",
+        "rating": {
+            "number": 4.0,
+            "badge": "Excellent"
+        },
+        "totalSell": "1800",
+        "shef": {
+            "name": "Zunayed Hossain",
+            "company": "FooDies"
+        },
+        "quantity": "2 Bowl",
+        "price": 8,
+        "image_url": "https://c.ndtvimg.com/2022-04/fq5cs53_biryani-doubletree-by-hilton_625x300_12_April_22.jpg",
+        "details": "One of the most royal delicacies that you can enjoy on any occasion or festival, Chicken Biryani is the epitome of a one-pot meal. Well, no one can resist the sight of the aromatic and delicious Chicken Biryani recipe. If you are also craving that, then you need not go anywhere as we have got this super-easy biryani recipe for you. So, what are you waiting for? Do try this delicious Chicken Biryani recipe and enjoy it with your loved ones."
+    },
+    {
+        "serviceId": "03",
+        "title": "Chicken Briyani",
+        "rating": {
+            "number": 4.0,
+            "badge": "Excellent"
+        },
+        "totalSell": "1800",
+        "shef": {
+            "name": "Zunayed Hossain",
+            "company": "FooDies"
+        },
+        "quantity": 1.5,
+        "price": 7,
+        "image_url": "https://www.quichentell.com/wp-content/uploads/2021/01/Konkani-Coconut-Chicken-4.1.jpg",
+        "details": "hicken curry or curry chicken is a dish originating from the Indian subcontinent. It is common in the Indian subcontinent, Southeast Asia, Great Britain, and the Caribbean. A typical curry from the Indian subcontinent consists of chicken stewed in an onion- and tomato-based sauce, flavoured with ginger, garlic, tomato puree, chilli peppers and a variety of spices, often including turmeric, cumin, coriander, cinnamon, and cardamom. Outside of South Asia, chicken curry is often made with a pre-made spice mixture known as curry powder."
+    },
+    {
+        "serviceId": "04",
+        "title": "Mutton Curry",
+        "rating": {
+            "number": 4.3,
+            "badge": "Excellent"
+        },
+        "totalSell": "1270",
+        "shef": {
+            "name": "Zunayed Hossain",
+            "company": "FooDies"
+        },
+        "quantity": "0.75 kg",
+        "price": 7,
+        "image_url": "https://www.licious.in/blog/wp-content/uploads/2020/12/Mutton-Bhuna.jpg",
+        "details": "In Bangladesh, mutton often refers to goat meat instead of sheep and it is cooked in numerous delicious ways. This simple yet delicious version of mutton or goat curry is also easy to put together and you can use goat meat or sheep. A mix of sautéed onions, tomatoes, garlic, and onion is puréed to make a flavorful sauce with a perfect balance of savory, aromatic spices. Dried spices add an unbeatable depth of flavor as the ingredients simmer together. Goat curry is delicious served with steamed rice, a salad, and raita. If you thicken the gravy, it tastes just as good with hot, freshly made chapatis."
+    },
+    {
+        "serviceId": "05",
+        "title": "Ilish Fry",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "totalSell": "1893",
+        "shef": {
+            "name": "Zunayed Hossain",
+            "company": "FooDies"
+        },
+        "quantity": "1 kg",
+        "price": 9,
+        "image_url": "https://images.squarespace-cdn.com/content/v1/5ea5f3913b0ccf06d0ec2563/1650301004598-0XTYSZ156CN76G7BBCCF/TSO_Ilish+Bhaja_4x3.jpg",
+        "details": "lish Bhaja is Ilish in its simplest form. Bengalis love their fried fish, but very few things come close to the fatty Hilsa seasoned with just salt and turmeric, then fried in mustard oil until crunchy. The mustard oil gets flavoured with the rendered fat from the fish, and is then drizzled on top of steaming white rice and served alongside the ilish with some salt and hot green chillies.Something like this does not really need a recipe, yet, no document on Bengali food would be complete without the simple joys of life like this one. "
+    },
+    {
+        "serviceId": "06",
+        "title": "Beef Briyani Package",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "totalSell": "1100",
+        "shef": {
+            "name": "Zunayed Hossain",
+            "company": "FooDies"
+        },
+        "quantity": "2 Bowl Briyani & 0.75kg Beef",
+        "price": 15,
+        "image_url": "https://images.deliveryhero.io/image/fd-bd/LH/evbf-hero.jpg",
+        "details": "It's pretty hard to beat the comfort and satisfaction that you get from eating a bowl of beef curry, especially when the beef is deeply crisped and tender, the rice is fluffy and hot, and the sauce is well-spiced.Stir in beef chuck pieces until coated with spice mixture; simmer over medium-low heat, stirring occasionally, until the beef is cooked through and tender, about 1 to 1 1/2 hours.Use 5 to 6 small green chile peppers, such as Thai chiles; if they're unavailable, substitute 2 to 3 serrano chiles or to taste. Use rubber gloves when chopping chile peppers."
+    }
+]
