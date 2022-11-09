@@ -1,0 +1,74 @@
+[
+    {
+        "serviceId": "01",
+        "title": "Beef Kala Vhuna",
+        "reviews": [
+            {
+                "name": "Zunaid Hossain",
+                "image": "https://helostatus.com/wp-content/uploads/2021/08/profile-pictures-for-WhatsApp-1024x1024.jpg?is-pending-load=1",
+                "email": "mdshafayethossain6530@gmail.com",
+                "text": "This dish is awesome"
+            }
+        ]
+    },
+    {
+        "serviceId": "02",
+        "title": "Chicken Briyani",
+        "reviews": [
+            {
+                "name": "Sabith Hossain",
+                "image": "https://helostatus.com/wp-content/uploads/2021/08/profile-pictures-for-WhatsApp-1024x1024.jpg?is-pending-load=1",
+                "email": "mdshafayethossain6530@gmail.com",
+                "text": "Chicken briyani is awesome"
+            }
+        ]
+    },
+    {
+        "serviceId": "03",
+        "title": "Chicken Curry",
+        "reviews": [
+            {
+                "name": "shohag Hossain",
+                "image": "https://helostatus.com/wp-content/uploads/2021/08/profile-pictures-for-WhatsApp-1024x1024.jpg?is-pending-load=1",
+                "email": "mdshafayethossain6830@gmail.com",
+                "text": "Chicken carry delicious"
+            }
+        ]
+    },
+    {
+        "serviceId": "04",
+        "title": "Mutton Curry",
+        "reviews": [
+            {
+                "name": "Mominul Hossain",
+                "image": "https://helostatus.com/wp-content/uploads/2021/08/profile-pictures-for-WhatsApp-1024x1024.jpg?is-pending-load=1",
+                "email": "mdshafayethossain6830@gmail.com",
+                "text": "Mutton carry delicious"
+            }
+        ]
+    },
+    {
+        "serviceId": "05",
+        "title": "Ilish Fry",
+        "reviews": [
+            {
+                "name": "sakowat",
+                "image": "https://helostatus.com/wp-content/uploads/2021/08/profile-pictures-for-WhatsApp-1024x1024.jpg?is-pending-load=1",
+                "email": "mdshafayethossain6830@gmail.com",
+                "text": "illish fry padma carry delicious"
+            }
+        ]
+    },
+    {
+        "serviceId": "06",
+        "title": "Beef Briyani Package",
+        "reviews": [
+            {
+                "name": "Korban",
+                "image": "https://helostatus.com/wp-content/uploads/2021/08/profile-pictures-for-WhatsApp-1024x1024.jpg?is-pending-load=1",
+                "email": "mdshafayethossain6830@gmail.com",
+                "text": "Very Good in quality"
+            }
+        ]
+    }
+]
