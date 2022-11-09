@@ -36,17 +36,15 @@ async function run() {
             const query = { _id: ObjectId(id) }
             const result = await serviceCollection.findOne(query);
             res.send(result)
-            console.log(result)
+            // console.log(result)
         })
-
-        const user = {
-            name: "shafa",
-            id: "20"
-        }
-        const result = await reviewCollection.insertOne(user);
-
-        console.log(result)
-
+        app.get('/reviews/:id', async (req, res) => {
+            const id = req.params.id
+            const query = { serviceId: id }
+            const result = await reviewCollection.findOne(query);
+            res.send(result)
+            // console.log(result)
+        })
     }
     finally {
 
