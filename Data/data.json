@@ -35,7 +35,7 @@
     },
     {
         "serviceId": "03",
-        "title": "Chicken Briyani",
+        "title": "Chicken Curry",
         "rating": {
             "number": 4.0,
             "badge": "Excellent"
@@ -48,7 +48,7 @@
         "quantity": 1.5,
         "price": 7,
         "image_url": "https://www.quichentell.com/wp-content/uploads/2021/01/Konkani-Coconut-Chicken-4.1.jpg",
-        "details": "hicken curry or curry chicken is a dish originating from the Indian subcontinent. It is common in the Indian subcontinent, Southeast Asia, Great Britain, and the Caribbean. A typical curry from the Indian subcontinent consists of chicken stewed in an onion- and tomato-based sauce, flavoured with ginger, garlic, tomato puree, chilli peppers and a variety of spices, often including turmeric, cumin, coriander, cinnamon, and cardamom. Outside of South Asia, chicken curry is often made with a pre-made spice mixture known as curry powder."
+        "details": "Chicken curry or curry chicken is a dish originating from the Indian subcontinent. It is common in the Indian subcontinent, Southeast Asia, Great Britain, and the Caribbean. A typical curry from the Indian subcontinent consists of chicken stewed in an onion- and tomato-based sauce, flavoured with ginger, garlic, tomato puree, chilli peppers and a variety of spices, often including turmeric, cumin, coriander, cinnamon, and cardamom. Outside of South Asia, chicken curry is often made with a pre-made spice mixture known as curry powder."
     },
     {
         "serviceId": "04",

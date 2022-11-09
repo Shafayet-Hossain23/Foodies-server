@@ -16,18 +16,20 @@ const userName = process.env.DB_USER
 const password = process.env.DB_PASSWORD
 
 const uri = `mongodb+srv://${userName}:${password}@cluster0.xazyemr.mongodb.net/?retryWrites=true&w=majority`;
-console.log(uri)
+// console.log(uri)
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
 async function run() {
     try {
         const serviceCollection = client.db("FooDies").collection("services")
         app.get('/services', async (req, res) => {
-            const query = {};
-            const cursor = serviceCollection.find(query)
-            const result = await cursor.toArray()
-            res.send(result)
-        })
+            const size = parseInt(req.query.size);
+            const query = {}
+            const cursor = serviceCollection.find(query);
+            const services = await cursor.limit(size).toArray();
+            const count = await serviceCollection.estimatedDocumentCount();
+            res.send({ count, services });
+        });
     }
     finally {
 
