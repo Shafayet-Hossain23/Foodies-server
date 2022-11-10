@@ -1,6 +1,6 @@
 [
     {
-        "serviceId": "01",
+        "serviceId": "1",
         "title": "Beef Kala Vhuna",
         "reviews": [
             {
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "serviceId": "02",
+        "serviceId": "2",
         "title": "Chicken Briyani",
         "reviews": [
             {
@@ -42,7 +42,7 @@
         ]
     },
     {
-        "serviceId": "03",
+        "serviceId": "3",
         "title": "Chicken Curry",
         "reviews": [
             {
@@ -54,7 +54,7 @@
         ]
     },
     {
-        "serviceId": "04",
+        "serviceId": "4",
         "title": "Mutton Curry",
         "reviews": [
             {
@@ -66,7 +66,7 @@
         ]
     },
     {
-        "serviceId": "05",
+        "serviceId": "5",
         "title": "Ilish Fry",
         "reviews": [
             {
@@ -78,7 +78,7 @@
         ]
     },
     {
-        "serviceId": "06",
+        "serviceId": "6",
         "title": "Beef Briyani Package",
         "reviews": [
             {

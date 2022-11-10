@@ -45,6 +45,26 @@ async function run() {
             res.send(result)
             // console.log(result)
         })
+        app.patch('/reviews/:id', async (req, res) => {
+            const id = req.params.id
+            const reviewsClient = req.body
+            console.log(reviewsClient)
+            const query = { serviceId: id }
+            const updateDoc = {
+                $push: {
+                    reviews: reviewsClient
+                },
+            };
+            const result = await reviewCollection.updateOne(query, updateDoc);
+            res.send(result)
+            console.log(result)
+        })
+        // const user = {
+        //     name: "hafayet"
+        // }
+        // const result = await reviewCollection.insertOne(user);
+        // console.log(result)
+
     }
     finally {
 
