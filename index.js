@@ -31,6 +31,20 @@ async function run() {
             const count = await serviceCollection.estimatedDocumentCount();
             res.send({ count, services });
         });
+        app.post('/services', async (req, res) => {
+            const addServices = req.body
+            console.log(addServices)
+            const result = await serviceCollection.insertOne(addServices)
+            res.send(result)
+        });
+        app.get('/services/count', async (req, res) => {
+
+            const query = {}
+            const cursor = serviceCollection.find(query);
+            const services = await cursor.toArray();
+            const count = await serviceCollection.estimatedDocumentCount();
+            res.send({ count, services });
+        });
         app.get('/services/:id', async (req, res) => {
             const id = req.params.id
             const query = { _id: ObjectId(id) }
