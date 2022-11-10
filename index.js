@@ -71,8 +71,14 @@ async function run() {
             };
             const result = await reviewCollection.updateOne(query, updateDoc);
             res.send(result)
-            console.log(result)
+            // console.log(result)
         })
+        app.post('/reviews', async (req, res) => {
+            const reviewItems = req.body
+            console.log(reviewItems)
+            const result = await reviewCollection.insertOne(reviewItems)
+            res.send(result)
+        });
         // const user = {
         //     name: "hafayet"
         // }
