@@ -79,6 +79,19 @@ async function run() {
             const result = await reviewCollection.insertOne(reviewItems)
             res.send(result)
         });
+        app.patch('/delete/:id', async (req, res) => {
+            const id = req.params.id
+            const userEmail = req.body
+            // console.log(userEmail)
+            const query = { serviceId: id }
+            const deleteReview = {
+                $pull: {
+                    reviews: userEmail
+                }
+            };
+            const result = await reviewCollection.updateOne(query, deleteReview);
+            res.send(result)
+        })
         // const user = {
         //     name: "hafayet"
         // }
